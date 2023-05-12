@@ -18,7 +18,6 @@ const UserSchema = new Schema({
     type: String,
   },
 });
-
 // L'objet "models" est fourni par la bibliothèque mongoose et stocke tous les modèles enregistrés. Si un modèle nommé "user" existe déjà dans l'objet "models", il assigne ce modèle existant à la variable "User". Cela empêche la redéfinition du modèle et garantit que le modèle existant est réutilisé.
 
 //Si un modèle nommé "User" n'existe pas dans l'objet "models", la fonction "model" de Mongoose est appelée pour créer un nouveau modèle. Le modèle nouvellement créé est assigné à la variable "user"
